@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(198, 227, 228);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons {
+    margin-left: auto;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+#subscribe {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+#img1 img{
+    height: 100vh;
+    width: 100%;
+    margin: 10px;
+    overflow-x: hidden;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#articles-container {
+    padding: 1em;
+}
+
+#post-form {
+    margin-top: 1em;
+}
+
+#news-form {
+    display: grid;
+    grid-gap: 1em;
+}
+
+#news-form label {
+    font-weight: bold;
+}
+
+#news-form input,
+#news-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#news-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Additional styles for responsive design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .social-icons {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0;
+        margin-bottom: 0.5em;
+    }
+
+    #subscribe {
+        width: 100%;
+        margin-top: 1em;
+    }
+}
